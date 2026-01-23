@@ -16,7 +16,8 @@ We are arbitrarily numbering the constants as $C_1$, $C_2$, etc. based on the or
 | [4](https://teorth.github.io/optimizationproblems/constants/4.html) | Cap set constant | 0.724851 | 0.782597 |
 | [5](https://teorth.github.io/optimizationproblems/constants/5.html) | A Sidon set constant | 0 | 0.97633 |
 | [6](https://teorth.github.io/optimizationproblems/constants/6.html) | Union-closed sets conjecture constant | 0.38271 | 0.5 |
-| [7](https://teorth.github.io/optimizationproblems/constants/7.html) | Classical zero-free region constant | 0.755106 | 5.558691 | 
+| [7](https://teorth.github.io/optimizationproblems/constants/7.html) | The irrationality measure of $\pi$ | 2 | 7.103205334137 |
+| [8](https://teorth.github.io/optimizationproblems/constants/7.html) | Classical zero-free region constant | 0.755106 | 5.558691 |
 
 ## Maintainers
 
