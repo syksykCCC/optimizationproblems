@@ -110,7 +110,7 @@ When adding a new category:
 - Use lowercase letters
 - Use hyphens to separate words
 - Be descriptive but concise
-- Examples: `sobolev-inequality.md`, `isoperimetric-problem.md`
+- Examples: `sobolev-inequality.md`, `hardy-inequality.md`
 
 ## Code of Conduct
 
