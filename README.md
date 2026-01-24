@@ -20,6 +20,7 @@ We are arbitrarily numbering the constants as $C_1$, $C_2$, etc. based on the or
 | [8](https://teorth.github.io/optimizationproblems/constants/8.html) | Classical zero-free region constant | 0.755106 | 5.558691 |
 | [9](https://teorth.github.io/optimizationproblems/constants/9.html) | Shannon capacity of the 7-cycle | 3.2578 | 3.3177 |
 | [10](https://teorth.github.io/optimizationproblems/constants/10.html) | The real Grothendieck constant | 1.67696 | 1.782214 |
+| [11](https://teorth.github.io/optimizationproblems/constants/11.html) | The Beardwood-Halton-Hammersley constant in 2D | 0.6277 | 0.90304 |
 
 ## Maintainers
 
