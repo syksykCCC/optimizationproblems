@@ -1,55 +1,53 @@
-# Brezis–Gallouet leading constant on the 2D torus
+# Brezis–Gallouet–Wainger remainder constant on the 2D torus
 
 ## Description of constant
 
-Let $\mathbb T^2 = (\mathbb R / 2\pi\mathbb Z)^2$ and let $u \in H^2(\mathbb T^2)$ with zero mean
-$\int_{\mathbb T^2} u(x)\,dx = 0$.  Define
+Let $\mathbb T^2 = (\mathbb R / 2\pi\mathbb Z)^2$ and let $u \in H^2(\mathbb T^2)$ with zero mean.
+Define the frequency ratio
 $$
 \delta(u) := \frac{\|\Delta u\|_{L^2(\mathbb T^2)}^2}{\|\nabla u\|_{L^2(\mathbb T^2)}^2}.
 $$
 
-Define the *one-log Brezis–Gallouet leading constant* $C_{\mathrm{BG}}^{(1\log)}(\mathbb T^2)$ as the infimum
-of $C>0$ such that there exists a finite $K$ with
+The sharp Brezis–Gallouet inequality on the 2D torus takes the form
 $$
-\|u\|_{L^\infty(\mathbb T^2)}^2 \le C\,\|\nabla u\|_{L^2(\mathbb T^2)}^2 \bigl(\ln \delta(u) + K\bigr)
-\qquad\text{for all such }u.
+\|u\|_{L^\infty(\mathbb T^2)}^2 \le \frac{1}{4\pi}\,\|\nabla u\|_{L^2(\mathbb T^2)}^2
+\Bigl[\ln\delta(u) + \ln\bigl(1+\ln\delta(u)\bigr) + L\Bigr]
 $$
+where the leading coefficient $\frac{1}{4\pi}$ is sharp (cannot be reduced).
 
-This constant controls the sharp coefficient in the logarithmic critical embedding underlying
-standard Brezis–Gallouet-type estimates used in 2D PDE (including Navier–Stokes attractor and
-regularity arguments).
+The constant $C_N = L$ is the **optimal additive remainder**: the infimum over all $L$ such that the above inequality holds for all admissible $u$ with $\delta(u) > 1$. Equivalently, $L$ is defined via the constrained extremal problem
+$$
+L = \max_{\delta \geq 1} \left[ 4\pi\Theta(\delta) - \ln\delta - \ln(1+\ln\delta) \right]
+$$
+where $\Theta(\delta) := \sup\bigl\{|u(0)|^2 : \|{\nabla u}\|_2^2 = 1,\, \|\Delta u\|_2^2 = \delta\bigr\}$.
 
 ## Known upper bounds
 
 | Bound | Reference | Comments |
 |---|---|---|
-| $C_{\mathrm{BG}}^{(1\log)}(\mathbb T^2) \le \dfrac{e}{4\pi}$ | [BG2011] | Explicit classical one-log inequality with computed constants |
+| $L \approx 2.15627$ | [BDZ2013] | Numerical evaluation; maximum achieved at $\delta^* \approx 3.92888$ |
 
 ## Known lower bounds
 
 | Bound | Reference | Comments |
 |---|---|---|
-| $C_{\mathrm{BG}}^{(1\log)}(\mathbb T^2) \ge \dfrac{1}{4\pi}$ | [BG2011] | Sharp torus asymptotics via variational formulation |
+| $L > \frac{\beta + \pi}{\pi} \approx 1.82283$ | [BDZ2013] | Rigorous; follows from asymptotic analysis showing the inequality fails at $L = L_\infty$ |
+
+Here $\beta = \pi(2\gamma + 2\log 2 + 3\log\pi - 4\log\Gamma(1/4))$ where $\gamma$ is the Euler–Mascheroni constant.
 
 ## Additional comments
 
-A sharper *log+loglog* form is known on $\mathbb T^2$ via a constrained variational problem:
-for $\delta(u)>0$,
-$$
-\|u\|_{L^\infty(\mathbb T^2)}^2 \le \frac{1}{4\pi}\,\|\nabla u\|_{L^2(\mathbb T^2)}^2
-\Bigl[\ln\delta(u) + \ln(1+\ln\delta(u)) + L\Bigr],
-$$
-with $L \approx 2.15$ in the cited formulation.  This is described as the sharp estimate
-for the Brezis–Gallouet inequality on the torus.
-
-Thus, the remaining "optimization" tension is largely about the *best possible remainder structure*
-(one-log vs log+loglog), not the leading coefficient in the sharp torus asymptotics.
+- The leading coefficient $\frac{1}{4\pi}$ in front of the logarithmic terms is completely determined; the remaining optimization is entirely in the additive constant $L$.
+- The simpler "one-log" Brezis–Gallouet inequality $\|u\|_\infty^2 \le C\|\nabla u\|_2^2(\ln\delta + K)$ has infimum $C = \frac{1}{4\pi}$, but this infimum is **not attained** with any finite $K$—the log-log correction is necessary.
+- The constant $L$ is expressed in terms of lattice sums over $\mathbb{Z}^2$ and does not have a known closed form.
+- The maximum in the variational definition is unique and achieved at finite $\delta^*$; the corresponding conditional extremal $u_{\mu(\delta^*)}(x)$ is an exact extremal function.
+- Applications include sharp attractor dimension bounds for 2D Navier–Stokes equations on the torus.
 
 ## References
 
 - [BG1980] Brezis, H.; Gallouet, T. *Nonlinear Schrödinger evolution equations.* Nonlinear Anal. 4 (1980), 677–681.
-- [BG2011] Bartuccelli, M. V.; Gibbon, J. D. *Sharp constants in the Sobolev embedding theorem.* J. Math. Phys. 52 (2011), 093706.
-- [BDZ2010] Bartuccelli, M. V.; Deane, J. H. B.; Zelik, S. *Asymptotic expansions and extremals for the critical Sobolev and Gagliardo–Nirenberg inequalities on a torus.* arXiv:1012.2061.
+- [BDZ2013] Bartuccelli, M. V.; Deane, J. H. B.; Zelik, S. *Asymptotic expansions and extremals for the critical Sobolev and Gagliardo–Nirenberg inequalities on a torus.* Proc. Roy. Soc. Edinburgh Sect. A 143 (2013), 445–482. [arXiv:1012.2061](https://arxiv.org/abs/1012.2061)
+- [MSW2010] Morii, K.; Sato, T.; Wadade, H. *Brézis–Gallouët–Wainger type inequality with a double logarithmic term in the Hölder space and its sharp constants.* J. Inequal. Appl. (2010).
 
 ## Contribution notes
 
