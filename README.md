@@ -35,6 +35,7 @@ We are arbitrarily numbering the constants as $C_1$, $C_2$, etc., mostly based o
 | [19](https://teorth.github.io/optimizationproblems/constants/19.html) | Berry–Esseen constant | 0.4097321837 | 0.4690 |
 | [20](https://teorth.github.io/optimizationproblems/constants/20.html) | Thin shell conjecture constant | 2 | $< \infty$ |
 | [21](https://teorth.github.io/optimizationproblems/constants/21.html) | Isotropic constant of a log-concave probability measure | $1/e$ | $< \infty$ |
+| [22](https://teorth.github.io/optimizationproblems/constants/22.html) | de Bruijn–Newman constant | 0 | 0.2 |
 
 ## Maintainers
 
