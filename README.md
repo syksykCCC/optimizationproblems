@@ -12,30 +12,30 @@ We are arbitrarily numbering the constants as $C\_{1}$, $C\_{2}$, etc., mostly b
 | ------ | ----------- | ---------------- | ---------------- |
 | [1a](https://teorth.github.io/optimizationproblems/constants/1a.html) | Sidon set autocorrelation constant | 1.2802 | 1.5029 |
 | [1b](https://teorth.github.io/optimizationproblems/constants/1b.html) | Erdős minimum overlap constant | 0.379005 | 0.380876 |
-| [2](https://teorth.github.io/optimizationproblems/constants/2.html) | Crouzeix constant | 2 | $1+\sqrt{2} \approx 2.4142$ |
+| [2](https://teorth.github.io/optimizationproblems/constants/2a.html) | Crouzeix constant | 2 | $1+\sqrt{2} \approx 2.4142$ |
 | [3a](https://teorth.github.io/optimizationproblems/constants/3a.html) | Gyamarti-Hennecart-Ruzsa sum-difference constant | 1.173077 | 1.33333 |
 | [3b](https://teorth.github.io/optimizationproblems/constants/3b.html) | Kakeya sums-differences constant | >1.77898 | 1.83333 |
-| [4](https://teorth.github.io/optimizationproblems/constants/4.html) | Cap set constant | 0.724851 | 0.782597 |
-| [5](https://teorth.github.io/optimizationproblems/constants/5.html) | Sidon set size constant | 0 | 0.97633 |
-| [6](https://teorth.github.io/optimizationproblems/constants/6.html) | Union-closed sets conjecture constant | 0.38271 | 0.5 |
-| [7](https://teorth.github.io/optimizationproblems/constants/7.html) | Irrationality measure of $\pi$ | 2 | 7.103205334137 |
-| [8](https://teorth.github.io/optimizationproblems/constants/8.html) | Classical zero-free region constant | 0.755106 | 5.558691 |
-| [9](https://teorth.github.io/optimizationproblems/constants/9.html) | Shannon capacity of the 7-cycle | 3.2578 | 3.3177 |
-| [10](https://teorth.github.io/optimizationproblems/constants/10.html) | Real Grothendieck constant | 1.67696 | 1.782214 |
+| [4](https://teorth.github.io/optimizationproblems/constants/4a.html) | Cap set constant | 0.724851 | 0.782597 |
+| [5](https://teorth.github.io/optimizationproblems/constants/5a.html) | Sidon set size constant | 0 | 0.97633 |
+| [6](https://teorth.github.io/optimizationproblems/constants/6a.html) | Union-closed sets conjecture constant | 0.38271 | 0.5 |
+| [7](https://teorth.github.io/optimizationproblems/constants/7a.html) | Irrationality measure of $\pi$ | 2 | 7.103205334137 |
+| [8](https://teorth.github.io/optimizationproblems/constants/8a.html) | Classical zero-free region constant | 0.755106 | 5.558691 |
+| [9](https://teorth.github.io/optimizationproblems/constants/9a.html) | Shannon capacity of the 7-cycle | 3.2578 | 3.3177 |
+| [10](https://teorth.github.io/optimizationproblems/constants/10a.html) | Real Grothendieck constant | 1.67696 | 1.782214 |
 | [11a](https://teorth.github.io/optimizationproblems/constants/11a.html) | $L^1$ Poincaré constant on the Hamming cube | $\sqrt{\pi/2} \approx 1.2533$ | $\pi/2 - 0.00013 \approx 1.5707$ |
 | [11b](https://teorth.github.io/optimizationproblems/constants/11b.html) | Critical exponent for isoperimetric inequality on the Hamming cube | 0.5 | 0.50057 |
-| [12](https://teorth.github.io/optimizationproblems/constants/12.html) | The Beardwood–Halton–Hammersley constant | 0.6277 | 0.90304 |
+| [12](https://teorth.github.io/optimizationproblems/constants/12a.html) | The Beardwood–Halton–Hammersley constant | 0.6277 | 0.90304 |
 | [13a](https://teorth.github.io/optimizationproblems/constants/13a.html) | Moser's convex worm cover constant | 0.232239 | 0.2617993878 |
 | [13b](https://teorth.github.io/optimizationproblems/constants/13b.html) | Lebesgue's convex universal cover constant | 0.832 | 0.8440935944 |
-| [14](https://teorth.github.io/optimizationproblems/constants/14.html) | Smallest $n$ for which the value of $BB(n)$ is undecidable | 6 | 432 |
-| [15](https://teorth.github.io/optimizationproblems/constants/15.html) | Matrix multiplication exponent | 2 | < 2.3728596 |
-| [16](https://teorth.github.io/optimizationproblems/constants/16.html) | Brezis–Gallouet–Wainger remainder constant on the 2D torus | $\frac{\beta + \pi}{\pi} \approx 1.82283$ | $\approx 2.15627$ |
-| [17](https://teorth.github.io/optimizationproblems/constants/17.html) | Exponential growth constant of diagonal Ramsey numbers | $\sqrt{2} \approx 1.4142$ | 3.7992027396 |
-| [18](https://teorth.github.io/optimizationproblems/constants/18.html) | Marton's conjecture constant (PFR) | 1 | 9 |
-| [19](https://teorth.github.io/optimizationproblems/constants/19.html) | Berry–Esseen constant | 0.4097321837 | 0.4690 |
-| [20](https://teorth.github.io/optimizationproblems/constants/20.html) | Thin shell conjecture constant | 2 | $< \infty$ |
-| [21](https://teorth.github.io/optimizationproblems/constants/21.html) | Isotropic constant of a log-concave probability measure | $1/e$ | $< \infty$ |
-| [22](https://teorth.github.io/optimizationproblems/constants/22.html) | de Bruijn–Newman constant | 0 | 0.2 |
+| [14](https://teorth.github.io/optimizationproblems/constants/14a.html) | Smallest $n$ for which the value of $BB(n)$ is undecidable | 6 | 432 |
+| [15](https://teorth.github.io/optimizationproblems/constants/15a.html) | Matrix multiplication exponent | 2 | < 2.3728596 |
+| [16](https://teorth.github.io/optimizationproblems/constants/16a.html) | Brezis–Gallouet–Wainger remainder constant on the 2D torus | $\frac{\beta + \pi}{\pi} \approx 1.82283$ | $\approx 2.15627$ |
+| [17](https://teorth.github.io/optimizationproblems/constants/17a.html) | Exponential growth constant of diagonal Ramsey numbers | $\sqrt{2} \approx 1.4142$ | 3.7992027396 |
+| [18](https://teorth.github.io/optimizationproblems/constants/18a.html) | Marton's conjecture constant (PFR) | 1 | 9 |
+| [19](https://teorth.github.io/optimizationproblems/constants/19a.html) | Berry–Esseen constant | 0.4097321837 | 0.4690 |
+| [20](https://teorth.github.io/optimizationproblems/constants/20a.html) | Thin shell conjecture constant | 2 | $< \infty$ |
+| [21](https://teorth.github.io/optimizationproblems/constants/21a.html) | Isotropic constant of a log-concave probability measure | $1/e$ | $< \infty$ |
+| [22](https://teorth.github.io/optimizationproblems/constants/22a.html) | de Bruijn–Newman constant | 0 | 0.2 |
 
 ## Maintainers
 
