@@ -33,7 +33,7 @@ We are arbitrarily numbering the constants as $C_1$, $C_2$, etc., mostly based o
 | [17](https://teorth.github.io/optimizationproblems/constants/17.html) | Exponential growth constant of diagonal Ramsey numbers | $\sqrt{2} \approx 1.4142$ | 3.7992027396 |
 | [18](https://teorth.github.io/optimizationproblems/constants/18.html) | Marton's conjecture constant (PFR) | 1 | 9 |
 | [19](https://teorth.github.io/optimizationproblems/constants/19.html) | Berry–Esseen constant | 0.4097321837 | 0.4690 |
-
+| [20](https://teorth.github.io/optimizationproblems/constants/20.html) | Thin shell conjecture constant | 2 | $< +\infty$ |
 
 ## Maintainers
 
