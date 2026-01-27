@@ -3,3 +3,9 @@ kramdown:
   math_engine: mathjax
   math_engine_opts:
     preview: true
+defaults:
+  - scope:
+      path: "constants"
+      type: "pages"
+    values:
+      layout: default
