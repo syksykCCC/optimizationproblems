@@ -46,7 +46,7 @@ Each constant will be assigned a number $N$, indicating the family of constants 
 
 ## LaTeX rendering issues
 
-Due to the way Markdown is converted to HTML on this site, underscores in *inline* LaTeX can be misread as emphasis.  The safest fix is to avoid patterns like `\mathbb{F}_{3}` in inline math and instead write `\mathbb F_{3}` (or `F_{3}` with `\mathbb` separated), which renders correctly.  For similar reasons, pipes `|` should be avoided; one can use `\lvert` and `\rvert` instead.
+Due to the way Markdown is converted to HTML on this site, underscores in *inline* LaTeX can be misread as emphasis.  The safest fix is to avoid patterns like `\mathbb{F}_{3}` in inline math and instead write `\mathbb{F}\_{3}`, which renders correctly.  For similar reasons, pipes `|` should be avoided; one can use `\lvert` and `\rvert` instead.
 
 ## AI use policy
 
